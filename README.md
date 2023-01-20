@@ -18,6 +18,8 @@ brew install chainguard-dev/tap/<formula>
 | Repository | Formula                        | Description        |
 | ---------- | ------------------------------ | ------------------ |
 | chainctl   | [formula](Formula/chainctl.rb) | Chainguard Control |
+| melange    | [formula](Formula/melange.rb)  | -                  |
+| apko       | [formula](Formula/apko.rb)     | -                  |
 
 ## Documentation
 
