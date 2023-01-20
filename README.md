@@ -3,14 +3,14 @@
 ## Installation
 
 ```
-brew tap chainguard-dev/tap
+brew tap jdolitsky/tap-chainguard
 brew install <FORMULA>
 ```
 
 or
 
 ```
-brew install chainguard-dev/tap/<formula>
+brew install jdolitsky/tap-chainguard/<formula>
 ```
 
 ## Formulae
