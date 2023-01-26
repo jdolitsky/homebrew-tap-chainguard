@@ -1,12 +1,12 @@
 class Apko < Formula
   desc "Build OCI images using APK directly without Dockerfile"
   homepage "https://github.com/chainguard-dev/apko"
-  version "0.7.0-rc.1"
+  version "0.7.0-rc.3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jdolitsky/apko/releases/download/v0.7.0-rc.1/apko_0.7.0-rc.1_darwin_arm64.tar.gz"
-      sha256 "2b5e24044c5eb9958d7cd2007b79f828773eb07b4427a586af3310f23decec54"
+      url "https://github.com/jdolitsky/apko/releases/download/v0.7.0-rc.3/apko_0.7.0-rc.3_darwin_arm64.tar.gz"
+      sha256 "6efe3db0206acb8416eb8d2d1aa7e3884ba71d80968eda49c27403fdf2d1d8f7"
 
       def install
         bin.install "apko"
